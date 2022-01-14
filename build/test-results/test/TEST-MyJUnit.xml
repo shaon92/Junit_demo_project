@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyJUnit" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-01-14T15:28:48" hostname="DESKTOP-N5HIU3E" time="218.589">
+  <properties/>
+  <testcase name="checkIfImageExists" classname="MyJUnit" time="114.566"/>
+  <testcase name="getTitle" classname="MyJUnit" time="104.023"/>
+  <system-out><![CDATA[Image Found
+ToolsQA
+]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1642174129243	geckodriver	INFO	Listening on 127.0.0.1:59513
+1642174130222	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headed" "--remote-debugging-port" "59161" "-no-remote" "-profile" "C:\\Users\\Shaon\\AppData\\Local\\Temp\\rust_mozprofilea7GIMQ"
+1642174130674	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Shaon\\AppData\\Local\\Temp\\rust_mozprofilea7GIMQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59161/devtools/browser/96feb90e-1a3e-46e5-a7d4-7bb6087c86fc
+1642174135001	Marionette	INFO	Listening on port 65454
+1642174135624	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 14, 2022 9:28:55 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/s22cBc76vWepYNwqq7rK-TaORqePB7gQ6sezXyyrHgA.js line 1 > eval line 3477 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1642174242879	geckodriver	INFO	Listening on 127.0.0.1:65441
+JavaScript warning: https://pagead2.googlesyndication.com/bg/s22cBc76vWepYNwqq7rK-TaORqePB7gQ6sezXyyrHgA.js line 1 > eval line 2703 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1642174243399	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headed" "--remote-debugging-port" "61935" "-no-remote" "-profile" "C:\\Users\\Shaon\\AppData\\Local\\Temp\\rust_mozprofile4oeDZW"
+1642174243875	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Shaon\\AppData\\Local\\Temp\\rust_mozprofile4oeDZW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61935/devtools/browser/fdb151a4-fac8-4d1c-a5c1-cec9c3bbf694
+1642174248581	Marionette	INFO	Listening on port 49170
+1642174248719	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Jan 14, 2022 9:30:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript warning: https://pagead2.googlesyndication.com/bg/s22cBc76vWepYNwqq7rK-TaORqePB7gQ6sezXyyrHgA.js line 1 > eval line 1397 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+]]></system-err>
+</testsuite>
