@@ -190,7 +190,7 @@ public class MyJUnit {
     }
 
     @Test
-    public void scrapDataFromWen() {
+    public void scrapDataFromWeb() {
         driver.get("https://demoqa.com/webtables");
         WebElement table = driver.findElement(By.className("rt-tbody"));
         List<WebElement> allRows = table.findElements(By.className("rt-tr"));
